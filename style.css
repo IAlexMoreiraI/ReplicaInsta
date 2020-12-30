@@ -1,25 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243,243);
+    align-items: center;
+    justify-content: center;
+}
+
 .instagram{
-    border: black 10px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
 }
 
 .celular{
-    border: red 10px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.celular img{
+    height: 50rem;
 }
 
 .infos{
-    border: blue 10px solid;
 }
 
 .continua{
-    border: green 10px solid;
+}
+
+.continua img{
+    height: 80px;
+}
+
+.perfil img{
+    height: 200px;
 }
 
 .login{
-    border: purple 10px solid;
 }
 
 .download{
-    border: yellow 10px solid;
 }
 
 .continue{
