@@ -25,19 +25,32 @@ body{
 
 .celular{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
+    justify-content: flex-end;
+    align-items: center; 
+    width: 75%;
 }
 
 .celular img{
-    height: 50rem;
+    height: 500px;
 }
 
 .infos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
 }
 
 .continua{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
 }
 
 .continua img{
@@ -45,10 +58,25 @@ body{
 }
 
 .perfil img{
-    height: 200px;
+    height: 150px;
 }
 
 .login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .download{
